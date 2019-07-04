@@ -1,0 +1,437 @@
+my_list = [1,2,3,4,5,6,7,8,9]
+my_list_1 = []
+def num_check():
+    a = " "
+    b = " "
+    c = " "
+    d = " "
+    e = " "
+    f = " "
+    g = " "
+    h = " "
+    i = " "
+    print("Player1: You have 'o' as an option")
+    print("Player2: You have 'x' as an option")
+    print("Let us get started! Go Player1!")
+    if [a,b,c] == ['o','o','o'] or [a,e,i] == ['o','o','o'] or [a,d,g] == ['o','o','o'] or  [b,e,h] == ['o','o','o'] or  [c,e,g] == ['o','o','o'] or  [c,f,i] == ['o','o','o'] or  [d,e,f] == ['o','o','o'] or  [g,h,i] == ['o','o','o']:
+        print("Player 1 wins")
+    elif [a,b,c] == ['x','x','x'] or [a,e,i] == ['x','x','x'] or [a,d,g] == ['x','x','x'] or  [b,e,h] == ['x','x','x'] or  [c,e,g] == ['x','x','x'] or  [c,f,i] == ['x','x','x'] or  [d,e,f] == ['x','x','x'] or  [g,h,i] == ['x','x','x']:
+        print("Player 2 wins")
+    else:
+        n = int(input("Select your number, Player1: "))
+        if n == 1:
+            a = 1
+            my_list_1.append(a)
+            a ='o'
+        elif n == 2:
+            b =2
+            my_list_1.append(b)
+            b = 'o'
+        elif n ==3:
+            c = 3
+            my_list_1.append(c)
+            c = 'o'
+        elif n == 4:
+            d = 4
+            my_list_1.append(d)
+            d = 'o'
+        elif n == 5:
+            e = 5
+            my_list_1.append(e)
+            e = 'o'
+        elif n ==6:
+            f =6
+            my_list_1.append(f)
+            f = 'o'
+        elif n ==7:
+            g = 7
+            my_list_1.append(g)
+            g = 'o'
+        elif n ==8:
+            h = 8
+            my_list_1.append(h)
+            h = 'o'
+        elif n == 9:
+            i = 9
+            my_list_1.append(i)
+            i = 'o'
+        elif 0<=n<=10:
+            "Enter the correct number"
+        print(        f"    |     |    \n  {a} |  {b}  |  {c}\n- - |- - -| - -\n  {d} |  {e}  |  {f}  \n- - |- - -| - -\n  {g} |  {h}  |  {i}\n    |     |")
+        print(my_list_1)
+    if [a,b,c] == ['o','o','o'] or [a,e,i] == ['o','o','o'] or [a,d,g] == ['o','o','o'] or  [b,e,h] == ['o','o','o'] or  [c,e,g] == ['o','o','o'] or  [c,f,i] == ['o','o','o'] or  [d,e,f] == ['o','o','o'] or  [g,h,i] == ['o','o','o']:
+        print("Player 1 wins")
+    elif [a,b,c] == ['x','x','x'] or [a,e,i] == ['x','x','x'] or [a,d,g] == ['x','x','x'] or  [b,e,h] == ['x','x','x'] or  [c,e,g] == ['x','x','x'] or  [c,f,i] == ['x','x','x'] or  [d,e,f] == ['x','x','x'] or  [g,h,i] == ['x','x','x']:
+        print("Player 2 wins")
+    else:
+        n = int(input("Select your number, Player2: "))
+        if n == 1:
+            a = 1
+            my_list_1.append(a)
+            a = 'x'
+        elif n == 2:
+            b =2
+            my_list_1.append(b)
+            b = 'x'
+        elif n ==3:
+            c = 3
+            my_list_1.append(c)
+            c = 'x'
+        elif n == 4:
+            d = 4
+            my_list_1.append(d)
+            d = 'x'
+        elif n == 5:
+            e = 5
+            my_list_1.append(e)
+            e = 'x'
+        elif n ==6:
+            f =6
+            my_list_1.append(f)
+            f = 'x'
+        elif n ==7:
+            g = 7
+            my_list_1.append(g)
+            g = 'x'
+        elif n ==8:
+            h = 8
+            my_list_1.append(h)
+            h = 'x'
+        elif n == 9:
+            i = 9
+            my_list_1.append(i)
+            i = 'x'
+        elif 0<=n<=10:
+            "Enter the correct number"
+
+        print(        f"    |     |    \n  {a} |  {b}  |  {c}\n- - |- - -| - -\n  {d} |  {e}  |  {f}  \n- - |- - -| - -\n  {g} |  {h}  |  {i}\n    |     |")
+        print(my_list_1)
+    if [a,b,c] == ['o','o','o'] or [a,e,i] == ['o','o','o'] or [a,d,g] == ['o','o','o'] or  [b,e,h] == ['o','o','o'] or  [c,e,g] == ['o','o','o'] or  [c,f,i] == ['o','o','o'] or  [d,e,f] == ['o','o','o'] or  [g,h,i] == ['o','o','o']:
+        print("Player 1 wins")
+    elif [a,b,c] == ['x','x','x'] or [a,e,i] == ['x','x','x'] or [a,d,g] == ['x','x','x'] or  [b,e,h] == ['x','x','x'] or  [c,e,g] == ['x','x','x'] or  [c,f,i] == ['x','x','x'] or  [d,e,f] == ['x','x','x'] or  [g,h,i] == ['x','x','x']:
+        print("Player 2 wins")
+    else:
+        n = int(input("Select your number, Player1: "))
+        if n == 1:
+            a = 1
+            my_list_1.append(a)
+            a = 'o'
+        elif n == 2:
+            b = 2
+            my_list_1.append(b)
+            b = 'o'
+        elif n == 3:
+            c = 3
+            my_list_1.append(c)
+            c = 'o'
+        elif n == 4:
+            d = 4
+            my_list_1.append(d)
+            d = 'o'
+        elif n == 5:
+            e = 5
+            my_list_1.append(e)
+            e = 'o'
+        elif n == 6:
+            f = 6
+            my_list_1.append(f)
+            f = 'o'
+        elif n == 7:
+            g = 7
+            my_list_1.append(g)
+            g = 'o'
+        elif n == 8:
+            h = 8
+            my_list_1.append(h)
+            h = 'o'
+        elif n == 9:
+            i = 9
+            my_list_1.append(i)
+            i = 'o'
+        elif 0 <= n <= 10:
+            "Enter the correct number"
+        print(        f"    |     |    \n  {a} |  {b}  |  {c}\n- - |- - -| - -\n  {d} |  {e}  |  {f}  \n- - |- - -| - -\n  {g} |  {h}  |  {i}\n    |     |")
+        print(my_list_1)
+    if [a,b,c] == ['o','o','o'] or [a,e,i] == ['o','o','o'] or [a,d,g] == ['o','o','o'] or  [b,e,h] == ['o','o','o'] or  [c,e,g] == ['o','o','o'] or  [c,f,i] == ['o','o','o'] or  [d,e,f] == ['o','o','o'] or  [g,h,i] == ['o','o','o']:
+        print("Player 1 wins")
+    elif [a,b,c] == ['x','x','x'] or [a,e,i] == ['x','x','x'] or [a,d,g] == ['x','x','x'] or  [b,e,h] == ['x','x','x'] or  [c,e,g] == ['x','x','x'] or  [c,f,i] == ['x','x','x'] or  [d,e,f] == ['x','x','x'] or  [g,h,i] == ['x','x','x']:
+        print("Player 2 wins")
+    else:
+        n = int(input("Select your number, Player2: "))
+        if n == 1:
+            a = 1
+            my_list_1.append(a)
+            a = 'x'
+        elif n == 2:
+            b = 2
+            my_list_1.append(b)
+            b = 'x'
+        elif n == 3:
+            c = 3
+            my_list_1.append(c)
+            c = 'x'
+        elif n == 4:
+            d = 4
+            my_list_1.append(d)
+            d = 'x'
+        elif n == 5:
+            e = 5
+            my_list_1.append(e)
+            e = 'x'
+        elif n == 6:
+            f = 6
+            my_list_1.append(f)
+            f = 'x'
+        elif n == 7:
+            g = 7
+            my_list_1.append(g)
+            g = 'x'
+        elif n == 8:
+            h = 8
+            my_list_1.append(h)
+            h = 'x'
+        elif n == 9:
+            i = 9
+            my_list_1.append(i)
+            i = 'x'
+        elif 0 <= n <= 10:
+            "Enter the correct number"
+
+        print(        f"    |     |    \n  {a} |  {b}  |  {c}\n- - |- - -| - -\n  {d} |  {e}  |  {f}  \n- - |- - -| - -\n  {g} |  {h}  |  {i}\n    |     |")
+        print(my_list_1)
+    if [a,b,c] == ['o','o','o'] or [a,e,i] == ['o','o','o'] or [a,d,g] == ['o','o','o'] or  [b,e,h] == ['o','o','o'] or  [c,e,g] == ['o','o','o'] or  [c,f,i] == ['o','o','o'] or  [d,e,f] == ['o','o','o'] or  [g,h,i] == ['o','o','o']:
+        print("Player 1 wins")
+    elif [a,b,c] == ['x','x','x'] or [a,e,i] == ['x','x','x'] or [a,d,g] == ['x','x','x'] or  [b,e,h] == ['x','x','x'] or  [c,e,g] == ['x','x','x'] or  [c,f,i] == ['x','x','x'] or  [d,e,f] == ['x','x','x'] or  [g,h,i] == ['x','x','x']:
+        print("Player 2 wins")
+    else:
+        n = int(input("Select your number, Player1: "))
+        if n == 1:
+            a = 1
+            my_list_1.append(a)
+            a = 'o'
+        elif n == 2:
+            b = 2
+            my_list_1.append(b)
+            b = 'o'
+        elif n == 3:
+            c = 3
+            my_list_1.append(c)
+            c = 'o'
+        elif n == 4:
+            d = 4
+            my_list_1.append(d)
+            d = 'o'
+        elif n == 5:
+            e = 5
+            my_list_1.append(e)
+            e = 'o'
+        elif n == 6:
+            f = 6
+            my_list_1.append(f)
+            f = 'o'
+        elif n == 7:
+            g = 7
+            my_list_1.append(g)
+            g = 'o'
+        elif n == 8:
+            h = 8
+            my_list_1.append(h)
+            h = 'o'
+        elif n == 9:
+            i = 9
+            my_list_1.append(i)
+            i = 'o'
+        elif 0 <= n <= 10:
+            "Enter the correct number"
+        print(        f"    |     |    \n  {a} |  {b}  |  {c}\n- - |- - -| - -\n  {d} |  {e}  |  {f}  \n- - |- - -| - -\n  {g} |  {h}  |  {i}\n    |     |")
+        print(my_list_1)
+    if [a,b,c] == ['o','o','o'] or [a,e,i] == ['o','o','o'] or [a,d,g] == ['o','o','o'] or  [b,e,h] == ['o','o','o'] or  [c,e,g] == ['o','o','o'] or  [c,f,i] == ['o','o','o'] or  [d,e,f] == ['o','o','o'] or  [g,h,i] == ['o','o','o']:
+        print("Player 1 wins")
+    elif [a,b,c] == ['x','x','x'] or [a,e,i] == ['x','x','x'] or [a,d,g] == ['x','x','x'] or  [b,e,h] == ['x','x','x'] or  [c,e,g] == ['x','x','x'] or  [c,f,i] == ['x','x','x'] or  [d,e,f] == ['x','x','x'] or  [g,h,i] == ['x','x','x']:
+        print("Player 2 wins")
+    else:
+        n = int(input("Select your number, Player2: "))
+        if n == 1:
+            a = 1
+            my_list_1.append(a)
+            a = 'x'
+        elif n == 2:
+            b = 2
+            my_list_1.append(b)
+            b = 'x'
+        elif n == 3:
+            c = 3
+            my_list_1.append(c)
+            c = 'x'
+        elif n == 4:
+            d = 4
+            my_list_1.append(d)
+            d = 'x'
+        elif n == 5:
+            e = 5
+            my_list_1.append(e)
+            e = 'x'
+        elif n == 6:
+            f = 6
+            my_list_1.append(f)
+            f = 'x'
+        elif n == 7:
+            g = 7
+            my_list_1.append(g)
+            g = 'x'
+        elif n == 8:
+            h = 8
+            my_list_1.append(h)
+            h = 'x'
+        elif n == 9:
+            i = 9
+            my_list_1.append(i)
+            i = 'x'
+        elif 0 <= n <= 10:
+            "Enter the correct number"
+        print(        f"    |     |    \n  {a} |  {b}  |  {c}\n- - |- - -| - -\n  {d} |  {e}  |  {f}  \n- - |- - -| - -\n  {g} |  {h}  |  {i}\n    |     |")
+        print(my_list_1)
+    if [a,b,c] == ['o','o','o'] or [a,e,i] == ['o','o','o'] or [a,d,g] == ['o','o','o'] or  [b,e,h] == ['o','o','o'] or  [c,e,g] == ['o','o','o'] or  [c,f,i] == ['o','o','o'] or  [d,e,f] == ['o','o','o'] or  [g,h,i] == ['o','o','o']:
+        print("Player 1 wins")
+    elif [a,b,c] == ['x','x','x'] or [a,e,i] == ['x','x','x'] or [a,d,g] == ['x','x','x'] or  [b,e,h] == ['x','x','x'] or  [c,e,g] == ['x','x','x'] or  [c,f,i] == ['x','x','x'] or  [d,e,f] == ['x','x','x'] or  [g,h,i] == ['x','x','x']:
+        print("Player 2 wins")
+    else:
+        n = int(input("Select your number, Player1: "))
+        if n == 1:
+            a = 1
+            my_list_1.append(a)
+            a = 'o'
+        elif n == 2:
+            b = 2
+            my_list_1.append(b)
+            b = 'o'
+        elif n == 3:
+            c = 3
+            my_list_1.append(c)
+            c = 'o'
+        elif n == 4:
+            d = 4
+            my_list_1.append(d)
+            d = 'o'
+        elif n == 5:
+            e = 5
+            my_list_1.append(e)
+            e = 'o'
+        elif n == 6:
+            f = 6
+            my_list_1.append(f)
+            f = 'o'
+        elif n == 7:
+            g = 7
+            my_list_1.append(g)
+            g = 'o'
+        elif n == 8:
+            h = 8
+            my_list_1.append(h)
+            h = 'o'
+        elif n == 9:
+            i = 9
+            my_list_1.append(i)
+            i = 'o'
+        elif 0 <= n <= 10:
+            "Enter the correct number"
+        print(        f"    |     |    \n  {a} |  {b}  |  {c}\n- - |- - -| - -\n  {d} |  {e}  |  {f}  \n- - |- - -| - -\n  {g} |  {h}  |  {i}\n    |     |")
+        print(my_list_1)
+    if [a,b,c] == ['o','o','o'] or [a,e,i] == ['o','o','o'] or [a,d,g] == ['o','o','o'] or  [b,e,h] == ['o','o','o'] or  [c,e,g] == ['o','o','o'] or  [c,f,i] == ['o','o','o'] or  [d,e,f] == ['o','o','o'] or  [g,h,i] == ['o','o','o']:
+        print("Player 1 wins")
+    elif [a,b,c] == ['x','x','x'] or [a,e,i] == ['x','x','x'] or [a,d,g] == ['x','x','x'] or  [b,e,h] == ['x','x','x'] or  [c,e,g] == ['x','x','x'] or  [c,f,i] == ['x','x','x'] or  [d,e,f] == ['x','x','x'] or  [g,h,i] == ['x','x','x']:
+        print("Player 2 wins")
+    else:
+        n = int(input("Select your number, Player2: "))
+        if n == 1:
+            a = 1
+            my_list_1.append(a)
+            a = 'x'
+        elif n == 2:
+            b = 2
+            my_list_1.append(b)
+            b = 'x'
+        elif n == 3:
+            c = 3
+            my_list_1.append(c)
+            c = 'x'
+        elif n == 4:
+            d = 4
+            my_list_1.append(d)
+            d = 'x'
+        elif n == 5:
+            e = 5
+            my_list_1.append(e)
+            e = 'x'
+        elif n == 6:
+            f = 6
+            my_list_1.append(f)
+            f = 'x'
+        elif n == 7:
+            g = 7
+            my_list_1.append(g)
+            g = 'x'
+        elif n == 8:
+            h = 8
+            my_list_1.append(h)
+            h = 'x'
+        elif n == 9:
+            i = 9
+            my_list_1.append(i)
+            i = 'x'
+        elif 0 <= n <= 10:
+            "Enter the correct number"
+        print(        f"    |     |    \n  {a} |  {b}  |  {c}\n- - |- - -| - -\n  {d} |  {e}  |  {f}  \n- - |- - -| - -\n  {g} |  {h}  |  {i}\n    |     |")
+        print(my_list_1)
+    if [a,b,c] == ['o','o','o'] or [a,e,i] == ['o','o','o'] or [a,d,g] == ['o','o','o'] or  [b,e,h] == ['o','o','o'] or  [c,e,g] == ['o','o','o'] or  [c,f,i] == ['o','o','o'] or  [d,e,f] == ['o','o','o'] or  [g,h,i] == ['o','o','o']:
+        print("Player 1 wins")
+    elif [a,b,c] == ['x','x','x'] or [a,e,i] == ['x','x','x'] or [a,d,g] == ['x','x','x'] or  [b,e,h] == ['x','x','x'] or  [c,e,g] == ['x','x','x'] or  [c,f,i] == ['x','x','x'] or  [d,e,f] == ['x','x','x'] or  [g,h,i] == ['x','x','x']:
+        print("Player 2 wins")
+    else:
+        n = int(input("Select your number, Player1: "))
+        if n == 1:
+            a = 1
+            my_list_1.append(a)
+            a = 'o'
+        elif n == 2:
+            b = 2
+            my_list_1.append(b)
+            b = 'o'
+        elif n == 3:
+            c = 3
+            my_list_1.append(c)
+            c = 'o'
+        elif n == 4:
+            d = 4
+            my_list_1.append(d)
+            d = 'o'
+        elif n == 5:
+            e = 5
+            my_list_1.append(e)
+            e = 'o'
+        elif n == 6:
+            f = 6
+            my_list_1.append(f)
+            f = 'o'
+        elif n == 7:
+            g = 7
+            my_list_1.append(g)
+            g = 'o'
+        elif n == 8:
+            h = 8
+            my_list_1.append(h)
+            h = 'o'
+        elif n == 9:
+            i = 9
+            my_list_1.append(i)
+            i = 'o'
+        elif 0 <= n <= 10:
+            "Enter the correct number"
+        print(        f"    |     |    \n  {a} |  {b}  |  {c}\n- - |- - -| - -\n  {d} |  {e}  |  {f}  \n- - |- - -| - -\n  {g} |  {h}  |  {i}\n    |     |")
+        print(my_list_1)
+num_check()
+x = input("Do you want to play again? ")
+while x == "yes":
+    num_check()
+    x = input("Do you want to play again? ")
+print("Have a good day!")
